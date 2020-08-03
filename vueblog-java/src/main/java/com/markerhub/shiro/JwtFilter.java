@@ -53,7 +53,7 @@ public class JwtFilter extends AuthenticatingFilter {
                 throw new ExpiredCredentialsException("token已失效，请重新登录");
             }
 
-            // 执行登录
+            // zi'dong deng lu
             return executeLogin(servletRequest, servletResponse);
         }
     }
